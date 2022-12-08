@@ -1,0 +1,27 @@
+embassies_main_general.departments:
+  path: 'the-embassy/departments'
+  defaults:
+    _controller: '\Drupal\embassies_main_general\Controller\NodesController::departmentsNode'
+  requirements:
+    _permission: 'access content'
+
+embassies_main_general.ambassador_consul:
+  path: 'the-embassy/the-ambassador'
+  defaults:
+    _controller: '\Drupal\embassies_main_general\Controller\NodesController::ambassadorNode'
+  requirements:
+    _permission: 'access content'
+
+embassies_main_general.about_the_embassy:
+  path: 'the-embassy/about'
+  defaults:
+    _controller: '\Drupal\embassies_main_general\Controller\NodesController::aboutNode'
+  requirements:
+    _permission: 'access content'
+
+embassies_main_general.bilateral_relations:
+  path: 'the-embassy/bilateral-relations'
+  defaults:
+    _controller: '\Drupal\embassies_main_general\Controller\NodesController::bilateralNode'
+  requirements:
+    _permission: 'access content'
